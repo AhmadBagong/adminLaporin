@@ -1,0 +1,94 @@
+.navbar {
+  background-color: #0673d9;
+}
+.navbar .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #ecdbff;
+}
+
+.nav {
+
+      left: 30px;
+      top: 50px;
+  }
+
+  img {
+
+      border-radius: 50%;
+
+  }
+  .center {
+      margin-top: 20%;
+  }
+
+  .userdesc{
+
+    font-size: 30px;
+    margin-top: 5%;
+  }
+
+  .usrdes{
+    color: grey;
+  }
+
+  .edit1{
+    background-color: black;
+    color: white;
+    border: 5px ;
+    padding: 5px ;
+    margin: 5px;
+  }
+
+.muncul {
+    background-color: grey;
+    padding: 7px;
+    display: none;
+}
+
+img:hover + .muncul {
+  display: block;
+}
+
+
+
+.easypiechart-panel {
+  text-align: center;
+  padding: 1px 0;
+  margin-bottom: 20px; }
+
+.placeholder h2 {
+  margin-bottom: 0px; }
+
+.donut {
+  width: 100%; }
+
+.easypiechart {
+  position: relative;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  margin: 20px auto 10px auto; }
+
+.easypiechart .percent {
+  display: block;
+  position: absolute;
+  font-size: 26px;
+  top: 38px;
+  width: 120px; }
+
+#easypiechart-blue .percent {
+  color: #30a5ff; }
+
+#easypiechart-teal .percent {
+  color: #1ebfae; }
+
+#easypiechart-orange .percent {
+  color: #ffb53e; }
+
+#easypiechart-red .percent {
+  color: #ef4040; }
+
+
